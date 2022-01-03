@@ -1,0 +1,44 @@
+.add-button{
+    background-color: chartreuse;
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #444;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+}
+.add-button:hover{
+    background-color: #444;
+    color: chartreuse;
+    transition:all 1s ease;
+}
+.button-container{
+    margin-left: 15px;
+    flex:1;
+}
+.btn-task{
+    background-color: #444;
+    border: none;
+    color: chartreuse;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: 0 5px;
+}
+.btn-task:hover{
+    cursor: pointer;
+}
+.btn-container{
+    background-color: #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 0 6px;
+    border: 2px solid chartreuse;
+}

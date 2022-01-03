@@ -1,7 +1,16 @@
 import React from "react";
+import Task from "./Task";
 
-export default function Tasks() {
+export default function Tasks({tasks, handleTaskClick, handleRemoveTask}) {
     return(
-        <h1>Testando</h1>
+        <>
+            {
+                tasks.map(task => <Task 
+                    task={task}
+                    handleTaskClick={handleTaskClick}
+                    handleRemoveTask={handleRemoveTask} 
+                />)
+            }
+        </>
     )
 }

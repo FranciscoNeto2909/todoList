@@ -1,0 +1,21 @@
+.task-container{
+    background-color: #444;
+    margin: 8px 0;
+    padding: 15px 5px 15px 15px;
+    display: flex;
+    border-radius:5px;
+    justify-content: space-between;
+    color: #eee;
+    align-items: center;
+}
+.pointer{
+    cursor: pointer;
+}
+.task-container:hover{
+    border-left:10px solid chartreuse;
+    transition: 0.3s;
+}
+.center{
+    color: #fff;
+    text-align: center;
+}
